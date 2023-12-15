@@ -123,26 +123,6 @@ nav{
 .nav-menu-btn{
     display: none;
 }
-.nav-menu-btn i{
-    font-size: 28px;
-    cursor: pointer;
-}
-.active-link{
-    position: relative;
-    color: var(--first-color);
-    transition: .3;
-}
-.active-link::after{
-    content: '';
-    position: absolute;
-    left: 50%;
-    bottom: -15px;
-    transform: translate(-50%, -50%);
-    width: 5px;
-    height: 5px;
-    background: var(--first-color);
-    border-radius: 50%;
-}
 
 
 
@@ -158,7 +138,7 @@ nav{
     min-height: 700px;
 }
 
-/* ----- FEATURED TEXT BOX ----- */
+
 .featured-text{
     position: relative;
     display: flex;
@@ -221,7 +201,7 @@ nav{
     color: var(--first-color);
 }
 
-/* ----- FEATURED IMAGE BOX ----- */
+
 .featured-image{
     display: flex;
     justify-content: right;
@@ -269,7 +249,7 @@ nav{
     font-size: 20px;
 }
 
-/* ----- MAIN BOX ----- */
+
 .section{
     padding-block: 5em;
 }
@@ -279,6 +259,7 @@ nav{
     align-items: center;
     width: 100%;
     gap: 50px;
+    margin-top: 30px;
 }
 .col{
     display: flex;
@@ -286,7 +267,7 @@ nav{
     
 }
 
-/* -- ## --- RESUABLE CSS -- ## -- */
+
 .top-header{
     text-align: center;
 }
@@ -305,7 +286,7 @@ h3{
     margin-bottom: 15px;
 }
 
-/* ----- ABOUT INFO ----- */
+
 .about-info{
     position: relative;
     display: flex;
@@ -390,6 +371,10 @@ h7{
     text-align: center;
     margin-top: 20px;
     margin: 20px;
+}
+
+.section-menor{
+    margin-top: -30px;
 }
 
 .custom-button {
